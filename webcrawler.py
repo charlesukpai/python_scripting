@@ -43,4 +43,4 @@ def get_all_urls(webpage):
         else:
             break
 
-print get_all_urls(get_page('http://xkcd.com/353'))
+print get_all_urls(get_webpage('http://xkcd.com/353'))
